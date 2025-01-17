@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/bgoscurito"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/id_LabelInputNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_label_nombre"
+            android:textSize="20sp"
+            android:textColor="@color/rosaclarito"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/id_inputNombre"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/border_round"
+            android:hint="@string/str_input_nombre"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@color/bordergrisito"
+            android:textColorHint="@color/bordergrisito"
+            android:textSize="14sp"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/id_LabelInputApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_label_apellido"
+            android:textSize="20sp"
+            android:textColor="@color/rosaclarito"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/id_inputApellido"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/border_round"
+            android:hint="@string/str_input_apellido"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@color/bordergrisito"
+            android:textColorHint="@color/bordergrisito"
+            android:textSize="14sp"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/id_LabelInputEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_pide_email"
+            android:textSize="20sp"
+            android:textColor="@color/rosaclarito"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/id_inputCorreo_registrar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/border_round"
+            android:textColor="@color/bordergrisito"
+            android:inputType="textEmailAddress"
+            android:hint="@string/str_hintEmail"
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:textColorHint="@color/bordergrisito"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/id_LabelInputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_password_registrar"
+            android:textSize="20sp"
+            android:textColor="@color/rosaclarito"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/id_inputPassword_registrar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/border_round"
+            android:textColor="@color/bordergrisito"
+            android:inputType="textPassword"
+            android:hint="@string/str_password"
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:textColorHint="@color/bordergrisito"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/id_LabelInputDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_input_fecha_nac"
+            android:textSize="20sp"
+            android:textColor="@color/rosaclarito"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_round"
+            android:hint="@string/str_hintDate"
+            android:inputType="date"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColorHint="@color/bordergrisito"
+            android:textColor="@color/bordergrisito"
+            android:textSize="14sp"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/id_LabelPreguntaS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_input_PreguntS"
+            android:textSize="20sp"
+            android:textColor="@color/rosaclarito"
+            android:layout_marginTop="16dp" />
+
+        <Spinner
+            android:id="@+id/mispinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/azulclarito"
+            />
+
+        <EditText
+            android:id="@+id/id_inputSeguridad"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/border_round"
+            android:inputType="text"
+            android:hint="@string/str_input_res_seguridad"
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:layout_marginTop="8dp"
+            android:textColorHint="@color/bordergrisito"
+            android:textColor="@color/bordergrisito"
+            android:autofillHints="" />
+
+
+        <TextView
+            android:id="@+id/id_LabelAuth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_label_auth"
+            android:textSize="20sp"
+            android:textColor="@color/rosaclarito"
+            android:layout_marginTop="16dp" />
+        <Spinner
+            android:id="@+id/authspinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/azulclarito"
+            android:layout_marginTop="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <CheckBox
+                    android:id="@+id/check_interes1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/str_interes1"
+                    android:textColor="@color/bordergrisito"
+                    android:background="@drawable/border_round" />
+
+                <CheckBox
+                    android:id="@+id/check_interes2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/str_interes2"
+                    android:textColor="@color/bordergrisito"
+                    android:background="@drawable/border_round" />
+
+                <CheckBox
+                    android:id="@+id/check_interes3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/str_interes3"
+                    android:textColor="@color/bordergrisito"
+                    android:background="@drawable/border_round" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <CheckBox
+                    android:id="@+id/check_interes4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/str_interes4"
+                    android:textColor="@color/bordergrisito"
+                    android:background="@drawable/border_round" />
+
+                <CheckBox
+                    android:id="@+id/check_interes5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/str_interes5"
+                    android:background="@drawable/border_round"
+                    android:textColor="@color/bordergrisito"
+                    android:onClick="onCheckboxClicked"
+                    />
+
+                <EditText
+                    android:id="@+id/check_interes6"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_round"
+                    android:inputType="text"
+                    android:textSize="14sp"
+                    android:padding="5dp"
+                    android:hint="@string/str_interes6"
+                    android:textColorHint="@color/bordergrisito"
+                    android:textColor="@color/bordergrisito"
+                    android:visibility="gone"
+                    android:importantForAutofill="no" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_registrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_registrarse"
+            style="@style/PrimaryMaterialButton"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="validarCampos"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/idCancelar_registroPlat"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:onClick="volverAtras"
+                android:text="@string/str_volver_inicio"
+                android:textColor="@color/azulclarito"
+                android:textSize="15sp"
+                android:minHeight="48dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

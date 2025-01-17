@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PrimaryMaterialButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/azuloscurito</item>
+        <item name="cornerRadius">5dp</item>
+        <item name="rippleColor">@color/azulclarito</item> <!-- Ripple effect on touch -->
+    </style>
+    <style name="addbutton" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="backgroundTint">@color/rosaclarito</item>
+        <item name="rippleColor">@color/rosaoscurito</item>
+        <item name="cornerRadius">5dp</item>
+    </style>
+    <style name="YourCustomStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/border_round</item>
+        <item name="android:textColorPrimary">@color/bordergrisito</item>
+        <item name="android:windowAnimationStyle">@style/YourDialogAnimation</item>
+    </style>
+
+    <style name="YourDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/fadein</item>
+        <item name="android:windowExitAnimation">@anim/fadeout</item>
+    </style>
+</resources>

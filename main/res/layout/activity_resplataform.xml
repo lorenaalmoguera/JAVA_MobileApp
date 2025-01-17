@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ResplataformActivity"
+    android:background="@color/bgoscurito">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/label_insertIMG_rp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textColor="@color/bordergrisito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_insertIMG_rp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:id="@+id/imageViewPlatform"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/addmovie"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/caratulaPeli" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/fotobtn"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/camara"
+                style="@style/PrimaryMaterialButton"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/gallerybtn"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/gallery"
+                style="@style/PrimaryMaterialButton"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/fotogallerybtn"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/fotogallery"
+                style="@style/PrimaryMaterialButton"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/label_platname_rp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_platname_rp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/rosaclarito"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/input_platname_rp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/str_hint_platname"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:importantForAutofill="no"
+            android:background="@drawable/border_round"
+            android:textColor="@color/bordergrisito"
+            android:textColorHint="@color/bordergrisito"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/label_urlname_rp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_urlname_rp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/rosaclarito"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/input_urlname_rp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/str_hint_urlname"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:importantForAutofill="no"
+            android:background="@drawable/border_round"
+            android:textColor="@color/bordergrisito"
+            android:textColorHint="@color/bordergrisito"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/label_user_rp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_username_rp"
+            android:textColor="@color/rosaclarito"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/input_user_rp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/str_hint_userrp"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:importantForAutofill="no"
+            android:background="@drawable/border_round"
+            android:textColor="@color/bordergrisito"
+            android:textColorHint="@color/bordergrisito"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/label_password_rp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_password_rp"
+            android:textColor="@color/rosaclarito"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/input_password_rp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/str_hint_password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:importantForAutofill="no"
+            android:background="@drawable/border_round"
+            android:textColor="@color/bordergrisito"
+            android:textColorHint="@color/bordergrisito"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/idMeterPlataforma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_registrarPlataforma"
+            style="@style/PrimaryMaterialButton"
+            android:layout_marginBottom="20dp"
+            android:onClick="RegistrarPlat"/>
+
+        <TextView
+            android:id="@+id/idVolverInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:onClick="volverAtras"
+            android:text="@string/str_volver_inicio"
+            android:textColor="@color/azulclarito"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+</ScrollView>

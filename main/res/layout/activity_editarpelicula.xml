@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".EditarpeliculaActivity"
+    android:background="@color/bgoscurito">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/label_insertIMG_rm"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_editar_peli"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/bordergrisito"/>
+
+        <ImageView
+            android:id="@+id/imageViewEditarPelicula"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/addmovie"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/caratulaPeli" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/fotobtn"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/camara"
+                style="@style/PrimaryMaterialButton"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/gallerybtn"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/gallery"
+                style="@style/PrimaryMaterialButton"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/fotogallerybtn"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/fotogallery"
+                style="@style/PrimaryMaterialButton"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/label_peliname_rm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_platname_rm"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/rosaclarito"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/input_peliname_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/str_hint_platname"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:importantForAutofill="no"
+            android:background="@drawable/border_round"
+            android:textColor="@color/bordergrisito"
+            android:textColorHint="@color/bordergrisito"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/label_length_rm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_length_rm"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/rosaclarito"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/input_hora_rm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/str_hint_length"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:importantForAutofill="no"
+            android:background="@drawable/border_round"
+            android:textColor="@color/bordergrisito"
+            android:textColorHint="@color/bordergrisito"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/label_genre_rm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_gen_rm"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/rosaclarito"
+            android:textSize="20sp"/>
+
+        <Spinner
+            android:id="@+id/genSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/azulclarito"/>
+
+        <TextView
+            android:id="@+id/label_rating_rm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_rating_rm"
+            android:textColor="@color/rosaclarito"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"/>
+
+        <Spinner
+            android:id="@+id/ratingSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/azulclarito"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/label_platform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_pick_platform_rn"
+            android:textColor="@color/rosaclarito"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"/>
+
+        <Spinner
+            android:id="@+id/platformSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/azulclarito"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/idMeterPlataforma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_registrarPlataforma"
+            style="@style/PrimaryMaterialButton"
+            android:layout_marginBottom="20dp"
+            android:onClick="ActualizarPeli"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/idVolverInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:minHeight="48dp"
+            android:layout_marginTop="0dp"
+            android:onClick="volverAtras"
+            android:text="@string/str_volver_inicio"
+            android:textSize="15sp"
+            android:textColor="@color/azulclarito" />
+
+    </LinearLayout>
+</ScrollView>

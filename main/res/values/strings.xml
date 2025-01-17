@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">mispelis48796558B</string>
+    <string name="str_iniciar_sesion">Iniciar Sesión</string>
+    <string name="str_password">Contraseña</string>
+    <string name="str_hintEmail">email@gmail.com</string>
+    <string name="logo_desc">Logotipo de la app \'Mis Pelis\'</string>
+    <string name="crear_una_cuenta">Crear una cuenta</string>
+    <string name="has_olvidado_tu_contrase_a">¿Has olvidado tu contraseña?</string>
+    <string name="str_pide_email">Introduce tu Correo Electrónico.</string>
+    <string name="str_password_registrar">Introduce tu contraseña.</string>
+
+    <string name="str_label_nombre">Introduce tu nombre.</string>
+    <string name="str_input_nombre">Tu nombre aquí.</string>
+    <string name="str_input_fecha_nac">Tu fecha de nacimiento</string>
+    <string name="str_hintDate">DD/MM/AAAA</string>
+    <string name="str_input_PreguntS">Pregunta de seguridad</string>
+    <string name="str_input_res_seguridad">Respuesta de seguridad</string>
+    <string name="str_registrarse">Guardar</string>
+    <string name="str_volver_inicio">Cancelar</string>
+
+    <string name="pregunta1_s">Nombre de tu mejor amigo</string>
+    <string name="pregunta2_s">Animal favorito</string>
+    <string name="pregunta3_s">Ciudad favorita</string>
+
+    <string name="str_interes1">Tecnología</string>
+    <string name="str_interes2">Deportes</string>
+    <string name="str_interes3">RSS</string>
+    <string name="str_interes4">Cine</string>
+    <string name="str_interes5">Otro</string>
+    <string name="str_interes6">Escribir Interes</string>
+    <string name="str_Login_AlertDialog_Title">¿Estás seguro de que quieres cancelar el registro?</string>
+    <string name="str_AlertDialog_Si">Si</string>
+    <string name="str_AlertDialog_No">No</string>
+    <string name="DateFormat">dd/MM/yyyy</string>
+    <string name="str_AlertDialog_Errores">Se han encontrado errores: </string>
+    <string name="str_AlertDIalog_aceptar">Aceptar</string>
+    <string name="Str_AlertDialog_Fecha">Formato de Fecha erróneo. El formato debe ser dd/MM/yyyy</string>
+    >
+    <string name="Str_AlertDialog_Pass">Password Obligatorio</string>
+    <string name="Str_AlertDialog_Email">Email Obligatorio</string>
+    <string name="Str_AlertDialog_Email_formato">Formato Email Erróneo</string>
+    <string name="Str_AlertDialogue_Null"> </string>
+    <string name="Str_Jump">\n</string>
+    <string name="Str_AlertDialog_Nombre">Nombre Obligatorio</string>
+    <string name="Str_AlertDialog_Nombre_formato">El nombre solo puede incluir letras</string>
+    <string name="str_input_apellido">Introduce tu apellido aquí</string>
+    <string name="str_label_apellido">Introduce tu apellido.</string>
+    <string name="Str_AlertDialog_Apellido_formato">El apellido solo puede incluir Letras</string>
+    <string name="Str_AlertDialog_Pass_formato">"El formato de la contraseña debe ser: longitudMinima de 8, incluir al menos letra minúscula, incluir al menos letra mayúscula, incluir al menos número, incluir al menos un carácter especial. "</string>
+    <string name="Str_AlertDialog_Interes_Vacio">El campo de solo intereses tiene el formato erróneo</string>
+    <string name="Str_AlertDialog_N_intereses">Se requiere seleccionar mínimo 1 interes.</string>
+    <string name="Str_AlertDialog_PreguntaSeguridad">La respuesta de seguridad únicamente puede contener letras.</string>
+    <string name="authSpinner_S">Si</string>
+    <string name="authSpinner_N">No</string>
+    <string name="str_label_auth">Usar 2FA</string>
+
+
+    <string-array name="Spinner_Preguntas">
+        <item>@string/pregunta1_s</item>
+        <item>@string/pregunta2_s</item>
+        <item>@string/pregunta3_s</item>
+    </string-array>
+
+    <string-array name="authSpinner">
+        <item>@string/authSpinner_S</item>
+        <item>@string/authSpinner_N</item>
+    </string-array>
+
+    <string name="genSpinner_Comedia">Comedia</string>
+    <string name="genSpinner_Accion">Acción</string>
+    <string name="genSpinner_Romance">Romance</string>
+    <string name="genSpinner_Miedo">Miedo</string>
+    <string name="genSpinner_Aventura">Aventura</string>
+    <string name="genSpinner_Suspense">Suspense</string>
+    <string name="genSpinner_Anime">Anime</string>
+    <string name="genSpinner_Infantil">Infantil</string>
+    <string name="genSpinner_Drama">Drama</string>
+    <string name="genSpinner_CienciaFiccion">Ciencia Ficción</string>
+    <string name="genSpinner_Documental">Documental</string>
+
+    <string-array name="genSpinner">
+        <item>@string/genSpinner_Comedia</item>
+        <item>@string/genSpinner_Accion</item>
+        <item>@string/genSpinner_Romance</item>
+        <item>@string/genSpinner_Miedo</item>
+        <item>@string/genSpinner_Aventura</item>
+        <item>@string/genSpinner_Suspense</item>
+        <item>@string/genSpinner_Anime</item>
+        <item>@string/genSpinner_Infantil</item>
+        <item>@string/genSpinner_Drama</item>
+        <item>@string/genSpinner_CienciaFiccion</item>
+        <item>@string/genSpinner_Documental</item>
+    </string-array>
+
+    <string name="ratingSpinner_opc0">0</string>
+    <string name="ratingSpinner_opc1">1</string>
+    <string name="ratingSpinner_opc2">2</string>
+    <string name="ratingSpinner_opc3">3</string>
+    <string name="ratingSpinner_opc4">4</string>
+    <string name="ratingSpinner_opc5">5</string>
+
+    <string-array name="ratingSpinner">
+        <item>@string/ratingSpinner_opc0</item>
+        <item>@string/ratingSpinner_opc1</item>
+        <item>@string/ratingSpinner_opc2</item>
+        <item>@string/ratingSpinner_opc3</item>
+        <item>@string/ratingSpinner_opc4</item>
+        <item>@string/ratingSpinner_opc5</item>
+    </string-array>
+
+    <string name="title_activity_general_plataforma">GeneralPlataformaActivity</string>
+    <string name="addPlatformDescStr">Btn para añadir plataforma</string>
+    <string name="str_insertIMG_rp">REGISTRAR PLATAFORMA</string>
+    <string name="str_platname_rp">Inserta el nombre de la plataforma.</string>
+    <string name="str_urlname_rp">Inserta la URL de la plataforma</string>
+    <string name="str_username_rp">Insertar el nombre de usuario de la plataforma</string>
+    <string name="str_password_rp">Insertar la contraseña de la cuenta de plataforma</string>
+    <string name="str_hint_platname">Nombre de la plataforma</string>
+    <string name="str_hint_urlname">URL de la plataforma</string>
+    <string name="str_hint_userrp">Usuario de la plataforma</string>
+    <string name="str_hint_password">Contraseña de acceso a la plataforma</string>
+    <string name="str_selectIMG_rp">Selecciona la imagen</string>
+    <string name="str_AlertDialog_PickOptionImg">Seleccione una de las siguientes opciones</string>
+    <string name="str_AlertDialog_msjcamara">Hacer Foto</string>
+    <string name="str_AlertDialog_msjgaleria">Seleccionar Foto</string>
+    <string name="str_registrarPlataforma">Registrar Plataforma</string>
+    <string name="Str_AlertDialog_url">El formato de la URL no es válido</string>
+    <string name="str_elegirPlat">Visualizar Plataformas</string>
+    <string name="str_elegirPeli">Visualizar películas</string>
+    <string name="str_volver">Atrás</string>
+    <string name="str_insertIMG_rm">REGISTRAR PELÍCULA</string>
+    <string name="str_platname_rm">Inserta el nombre de la película</string>
+    <string name="str_length_rm">Inserta la duración de la película</string>
+    <string name="str_hint_length">HH:MM</string>
+    <string name="str_gen_rm">Inserta el Genero de la película</string>
+    <string name="str_guardar">Save</string>
+    <string name="str_rating_rm">Aporte su valoración de la película</string>
+    <string name="str_pick_platform_rn">Seleccione en la cual ha visualizado esta película</string>
+    <string name="Str_AlertDialog_MovieName">El nombre de la película es obligatorio.</string>
+    <string name="Str_AlertDialog_MovieLength">El formato de la longitud de la Película es HH:mm</string>
+    <string name="str_id_de_peli">" - Id de plataforma: </string>
+    <string name="Str_AlertDialog_img">La imagen debe ser actualizada</string>
+    <string name="Str_AlertDialog_namePlat">Nombre de la plataforma obligatorio. Longitud de la cadena permitida mínima es de 3.</string>
+    <string name="Str_AlertDialo_user">Usuario obligatorio. Mínimo de cadena debe ser 1.</string>
+    <string name="Str_AlertDialog_PassPlat">La contraseña es obligatoria. Mínimo de longitud debe ser 6</string>
+    <string name="Str_AlertDialog_imgobligatoria">La selección de imagen es obligatoria</string>
+    <string name="str_peliculasPlat">Peliculas Bajo la plataforma</string>
+    <string name="str_id_plat">Platform ID:</string>
+    <string name="str_id_peli">"MovieID: "</string>
+    <string name="str_detalles_plat">Detalles sobre la Plataforma</string>
+    <string name="Str_nombrePlat">"Nombre de la plataforma: "</string>
+    <string name="Str_idplat">"PlatformId: "</string>
+    <string name="Str_email_plat">"Plataforma creada por: "</string>
+    <string name="Str_url_plat">"Url plataforma: "</string>
+    <string name="Str_user_plat">"Usuario de la plataforma: "</string>
+    <string name="Str_user_pass">"Contraseña del usuario: "</string>
+    <string name="Str_img_plat">"Imagen de la plataforma: "</string>
+    <string name="Str_AlertDialog_cancelar">Cancelar</string>
+    <string name="Str_AlertDialog_eliminarPlatform">¿Está usted seguro de que desea Eliminar la aplicación?</string>
+    <string name="str_AlertDialog">Eliminar Plataforma</string>
+    <string name="str_AlertDialogEliminarPeli">Eliminar Película</string>
+    <string name="str_AlertDialogEliminarPelicheck">¿Estás seguro de que deseas eliminar la película?</string>
+    <string name="str_AlertDialog_idMovieInPeli">"IdMovie: "</string>
+    <string name="str_AlertDialog_idMovie_emailresInPeli">"Película registrada por: "</string>
+    <string name="str_AlertDialog_idPlatformInPeli">ID de la plataforma:</string>
+    <string name="str_AlertDialog_ImgDataMoviesInPeli">Imagen de la película:</string>
+    <string name="str_AlertDialog_MovieNamePeli">"Nombre de la película: "</string>
+    <string name="str_AlertDialog_MovieLengthPeli">"Tiempo que dura la película: "</string>
+    <string name="str_AlertDIalog_MovieGenrePeli">"Género de la película: "</string>
+    <string name="str_AlertDialog_MovieRating">"Puntuación de la película: "</string>
+    <string name="Str_AlertDialog_datosPeli">"Datos de la película: "</string>
+    <string name="str_AlertDialog_EditarDatos">Editar</string>
+    <string name="str_alertDialog_cerrar">Cerrar</string>
+    <string name="str_editar_peli">Editar Película</string>
+    <string name="str_AlertDialog_Volver_Editar">¿Estás seguro de que quieres cancelar la edición?</string>
+    <string name="caratulaPeli">Caratula de la película</string>
+    <string name="str_actualizarPlat">Actualizar Datos</string>
+    <string name="str_editarPlataforma">Editar Plataforma</string>
+    <string name="str_fichero_peliculas">peliculas.csv</string>
+    <string name="str_fichero_peliculas_header">Titulo, genero, duracion, calificacion.</string>
+    <string name="str_fichero_coma">", "</string>
+    <string name="str_fichero_plataforma">plataformas.csv</string>
+    <string name="str_fichero_plat_header">Nombre, Url, Email, Usuario, Contraseña, Imagen</string>
+    <string name="str_AlertDialog_msjgaleriacamara">Capturar y guardar</string>
+    <string name="camara">Foto</string>
+    <string name="gallery">Galeria</string>
+    <string name="fotogallery">Nfoto</string>
+    <string name="str_name_rm">Nombre de la película\n</string>
+    <string name="str_hint_peliname">Nombre película</string>
+    <string name="str_cerrarsesion">Cerrar Sesión</string>
+    <string name="editar_str">Editar</string>
+    <string name="Cerrar_str">Cerrar</string>
+
+
+</resources>

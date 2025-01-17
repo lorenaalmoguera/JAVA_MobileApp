@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/border_round"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"
+        android:elevation="6dp"
+        >
+        <ImageView
+            android:id="@+id/imageViewPlataforma"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre Plataforma"
+                android:layout_gravity="center"
+                android:textColor="@color/rosaclarito"
+                android:textAppearance="?attr/textAppearanceListItem" />
+            <TextView
+                android:id="@+id/textViewIDOculto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="ID"
+                android:textColor="@color/rosaclarito"
+                android:layout_gravity="center"
+                android:textAppearance="?attr/textAppearanceListItem" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tituloPelicula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/str_peliculasPlat"
+            android:layout_gravity="center"
+            android:textColor="@color/rosaclarito"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <Spinner
+        android:id="@+id/generoSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" android:background="@color/azulclarito"
+        android:layout_marginTop="8dp" />
+    </LinearLayout>
+</LinearLayout>

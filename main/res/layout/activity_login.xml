@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_list"
+    tools:context=".LoginActivity"
+    android:id="@id/loginactivity_id">
+
+    <ImageView
+        android:id="@+id/img_logotipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/logo_desc"
+        app:srcCompat="@drawable/logoinicio"
+        android:elevation="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/border_round"
+        android:layout_margin="16dp"
+        android:elevation="6dp">
+
+        <TextView
+            android:id="@+id/id_label_correo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_pide_email"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/rosaclarito"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/id_inputCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border_round"
+            android:hint="@string/str_hintEmail"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:padding="15dp"
+            android:textColorHint="@color/bordergrisito"
+            android:textColor="@color/bordergrisito"
+            android:textSize="14sp"
+            android:importantForAutofill="no" />
+
+        <TextView
+            android:id="@+id/id_LabelInputPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_password_registrar"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/rosaclarito"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/id_inputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border_round"
+            android:hint="@string/str_password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:padding="15dp"
+            android:textColorHint="@color/bordergrisito"
+            android:textColor="@color/bordergrisito"
+            android:textSize="14sp"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_iniciar_sesion"
+            style="@style/PrimaryMaterialButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:onClick="iniciarSesion"
+            android:elevation="20dp"/>
+
+        <TextView
+            android:id="@+id/str_crear_cuenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="16dp"
+            android:minHeight="48dp"
+            android:onClick="accederARegistro"
+            android:text="@string/crear_una_cuenta"
+            android:textColor="@color/azulclarito" />
+    </LinearLayout>
+</LinearLayout>
